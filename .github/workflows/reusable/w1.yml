@@ -1,0 +1,13 @@
+name: w1
+
+on:
+  workflow_call:
+
+
+jobs:
+  w1:
+    runs-on: ubuntu-latest
+
+    steps:      
+      - name: echo
+        run: echo "w1"

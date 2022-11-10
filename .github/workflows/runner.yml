@@ -1,1 +1,12 @@
 
+name: w1+w2
+
+on:
+  workflow_dispatch:
+
+jobs:
+  w1:
+    uses:
+
+  w2:
+    uses: 
