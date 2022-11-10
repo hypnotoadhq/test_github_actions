@@ -2,7 +2,7 @@
 name: w1+w2
 
 on:
-  workflow_dispatch:
+  workflow_call:
 
 jobs:
   w1:
