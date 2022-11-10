@@ -6,7 +6,7 @@ on:
 
 jobs:
   w1:
-    uses: hypnotoadhq/test_github_actions/workflows/reusable/w1.yml@main
+    uses: hypnotoadhq/test_github_actions/.github/workflows/reusable/w1.yml@main
 
   w2:
-    uses: hypnotoadhq/test_github_actions/workflows/reusable/w2.yml@main
+    uses: hypnotoadhq/test_github_actions/.github/workflows/reusable/w2.yml@main
