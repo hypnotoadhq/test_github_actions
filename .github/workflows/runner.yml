@@ -9,4 +9,5 @@ jobs:
     uses: hypnotoadhq/test_github_actions/.github/workflows/w1.yml@main
 
   w2:
+    needs: w1
     uses: hypnotoadhq/test_github_actions/.github/workflows/w2.yml@main
