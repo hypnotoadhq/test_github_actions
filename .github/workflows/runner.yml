@@ -1,5 +1,5 @@
 
-name: w1+w2
+name: separ w1 than w1
 
 on:
   workflow_call:
